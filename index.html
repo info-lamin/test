@@ -1,385 +1,338 @@
-<html>
-    <head>
-        <title>Order By Whatsapp</title>
-        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-        <meta name="robots" content="noindex, nofollow">
-        <meta name="googlebot" content="noindex, nofollow">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.css">
-        <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.js"></script>
-        <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.js"></script>
-
-        <style id="compiled-css" type="text/css">
-            .demo10{background:#C0BFBF;padding:30px 0}
-            .pricingTable10{text-align:center}
-            .pricingTable10 .pricingTable-header{padding:30px 0;background:#4d4d4d;position:relative;transition:all .3s ease 0s}
-            .pricingTable10:hover .pricingTable-header{background:#59437A}
-            .pricingTable10 .pricingTable-header:after,.pricingTable10 .pricingTable-header:before{content:"";width:16px;height:16px;border-radius:50%;border:1px solid #d9d9d8;position:absolute;bottom:12px}
-            .pricingTable10 .pricingTable-header:before{left:40px}
-            .pricingTable10 .pricingTable-header:after{right:40px}
-            .pricingTable10 .heading{font-size:20px;color:#fff;text-transform:uppercase;letter-spacing:2px;margin-top:0}
-            .pricingTable10 .price-value{display:inline-block;position:relative;font-size:55px;font-weight:700;color:#E1B7BF;transition:all .3s ease 0s}
-            .pricingTable10:hover .price-value{color:#fff}
-            .pricingTable10 .currency{font-size:30px;font-weight:700;position:absolute;top:6px;left:-19px}
-            .pricingTable10 .month{font-size:16px;color:#fff;position:absolute;bottom:15px;right:-30px;text-transform:uppercase}
-            .pricingTable10 .pricing-content{padding-top:50px;background:#fff;position:relative}
-            .pricingTable10 .pricing-content:after,.pricingTable10 .pricing-content:before{content:"";width:16px;height:16px;border-radius:50%;border:1px solid #7c7c7c;position:absolute;top:12px}
-            .pricingTable10 .pricing-content:before{left:40px}
-            .pricingTable10 .pricing-content:after{right:40px}
-            .pricingTable10 .pricing-content ul{padding:0 20px;margin:0;list-style:none}
-            .pricingTable10 .pricing-content ul:after,.pricingTable10 .pricing-content ul:before{content:"";width:8px;height:46px;border-radius:3px;background:linear-gradient(to bottom,#818282 50%,#727373 50%);position:absolute;top:-22px;z-index:1;box-shadow:0 0 5px #707070;transition:all .3s ease 0s}
-            .pricingTable10:hover .pricing-content ul:after,.pricingTable10:hover .pricing-content ul:before{background:linear-gradient(to bottom,#E1B7BF 50%,#dd8d9c 50%)}
-            .pricingTable10 .pricing-content ul:before{left:44px}
-            .pricingTable10 .pricing-content ul:after{right:44px}
-            .pricingTable10 .pricing-content ul li{font-size:15px;font-weight:700;color:#777473;padding:10px 0;border-bottom:1px solid #d9d9d8}
-            .pricingTable10 .pricing-content ul li:last-child{border-bottom:none}
-            .pricingTable10 .read{display:inline-block;font-size:16px;color:#fff;text-transform:uppercase;background:#4d4d4d;padding:8px 25px;margin:30px 0;transition:all .3s ease 0s}
-            .pricingTable10 .read:hover{text-decoration:none}
-            .pricingTable10:hover .read{background:#59437A}
-            @media screen and (max-width:990px){.pricingTable10{margin-bottom:25px}}
-            .rounded-lg {border-radius: 1rem !important;}
-            .text-small {font-size: 0.9rem !important;}
-            .custom-separator {width: 5rem;height: 6px;border-radius: 1rem;}
-            .text-uppercase {letter-spacing: 0.2em;}
-            #pricing_table {color: #514B64;min-height: 100vh;padding: 30px}
-            .tab {overflow: hidden;border: 1px solid #ccc;background-color: #f1f1f1;}
-            .tab button {background-color: inherit;
-                float: left;
-                border: none;
-                outline: none;
-                cursor: pointer;
-                padding: 14px 0px;
-                width: 25%;
-                transition: 0.3s;
-                font-size: 17px;
-            }
-
-            /* Change background color of buttons on hover */
-            .tab button:hover {
-                background-color: #ddd;
-            }
-
-            /* Create an active/current tablink class */
-            .tab button.active {
-                background-color: #ccc;
-            }
-
-            .tabcontent {
-                -webkit-animation: fadeEffect 1s;
-                animation: fadeEffect 1s;
-            }
-            @-webkit-keyframes fadeEffect {
-                from {opacity: 0;}
-                to {opacity: 1;}
-            }
-
-            @keyframes fadeEffect {
-                from {opacity: 0;}
-                to {opacity: 1;}
-            }
-
-        </style>
-    </head>
-    <body>
+<!DOCTYPE html>
+<html style="font-size: 16px;">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="page_type" content="np-template-header-footer-from-plugin">
+    <title>pricing</title>
+    <link rel="stylesheet" href="nicepage.css" media="screen">
+<link rel="stylesheet" href="pricing.css" media="screen">
+    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.js"></script>
+    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.js"></script>
+    
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+    
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "Order By Whatsapp V2"
+}</script>
+    <meta name="theme-color" content="#59437a">
+    <meta property="og:title" content="pricing">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+  </head>
+  <body class="u-body"><header class="u-clearfix u-custom-color-3 u-header u-header" id="sec-9bd1"><div class="u-clearfix u-sheet u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-sheet-1">
+        <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
+          <div class="menu-collapse" style="font-size: 1.25rem; letter-spacing: 0px; font-weight: 600;">
+            <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
+              <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><symbol id="menu-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;"><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+</symbol>
+</defs></svg>
+            </a>
+          </div>
+          <div class="u-custom-menu u-nav-container">
+            <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-custom-color-1 u-text-hover-custom-color-1" href="{{ request.url_root[0:-1] }}/" style="padding: 10px 16px;">Home</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-custom-color-1 u-text-hover-custom-color-1" href="https://infomin.solutions" style="padding: 10px 16px;">About Us</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-custom-color-1 u-text-hover-custom-color-1" href="{{ request.url_root[0:-1] }}/pages/check_demo" style="padding: 10px 16px;">Demo</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-custom-color-1 u-text-hover-custom-color-1" href="{{ request.url_root[0:-1] }}/pages/pricing" style="padding: 10px 16px;">Pricing</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-custom-color-1 u-text-hover-custom-color-1" href="{{ request.url_root[0:-1] }}/pages/contact_us" style="padding: 10px 16px;">Contact Us</a>
+</li></ul>
+          </div>
+          <div class="u-custom-menu u-nav-container-collapse">
+            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+              <div class="u-sidenav-overflow">
+                <div class="u-menu-close"></div>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{{ request.url_root[0:-1] }}/" style="padding: 10px 16px;">Home</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://infomin.solutions" style="padding: 10px 16px;">About Us</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{{ request.url_root[0:-1] }}/pages/check_demo" style="padding: 10px 16px;">Demo</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{{ request.url_root[0:-1] }}/pages/pricing" style="padding: 10px 16px;">Pricing</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{{ request.url_root[0:-1] }}/pages/contact_us" style="padding: 10px 16px;">Contact Us</a>
+</li></ul>
+              </div>
+            </div>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+          </div>
+        </nav>
+        <h1 class="u-enable-responsive u-text u-text-custom-color-2 u-text-1">Order By Whatsapp</h1>
+      </div></header>
+    <section class="u-align-center u-clearfix u-palette-2-base u-section-1" id="sec-6be9">
+      <div class="u-clearfix u-custom-html u-expanded-width u-custom-html-1">
         <div class="tab">
-            <button class="tablinks" onclick="open_plan(event, 'Silver')" id="defaultopen">Silver</button>
-            <button class="tablinks" onclick="open_plan(event, 'Gold')">Gold</button>
-            <button class="tablinks" onclick="open_plan(event, 'Diamond')">Diamond</button>
-            <button class="tablinks" onclick="open_plan(event, 'Free')">Free</button>
+          <button class="tablinks" onclick="open_plan(event, 'Silver')" id="defaultopen">Silver</button>
+          <button class="tablinks" onclick="open_plan(event, 'Gold')">Gold</button>
+          <button class="tablinks" onclick="open_plan(event, 'Diamond')">Diamond</button>
+          <button class="tablinks" onclick="open_plan(event, 'Free')">Free</button>
         </div>
         <div id="pricing_table">
-            <div class="row text-center align-items-start">
-                <!-- Pricing Table-->
-
-                <!-- END -->
-
-
-                <div class="col-md-3 col-sm-12 tabcontent">
-                    <div class="pricingTable10">
-                        <div class="pricingTable-header">
-                            <h3 class="heading">Silver</h3>
-                            <span class="price-value">
-                        <span class="currency">₹</span> 92
-                        <span class="month">/mo</span>
-                    </span>
-                        </div>
-                        <div class="pricing-content">
-                            <ul>
-                                <li>
-                                    <a href="#" class="read">Demo</a>
-                                </li>
-                                <li>Maximum Products - 50</li>
-                                <li>3 Variations</li>
-                                <li>No Ads</li>
-                                <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i>
-                                    Add Photos
-                                </li>
-                                <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Total
-                                    Shipping Charges
-                                </li>
-                                <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i>
-                                    Custom Message
-                                </li>
-                                <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i>
-                                    Custom URL
-                                </li>
-                                <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Tax
-                                    Calculation
-                                </li>
-                                <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i>
-                                    Discount Calculation
-                                </li>
-                                <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i>
-                                    Categories
-                                </li>
-                                <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Free
-                                    Shipping Limit
-                                </li>
-                                <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Minimum
-                                    Order Limit
-                                </li>
-                                <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Fool
-                                    Proof Order Receipt
-                                </li>
-                                <li>&nbsp;<i class="fa fa-close" style="color:red; font-size: 20px;"></i> Category
-                                    Description
-                                </li>
-                                <li><i class="fa fa-close" style="color:red; font-size: 20px;"></i> Cart Message</li>
-                                <li><i class="fa fa-close" style="color:red; font-size: 20px;"></i> Weight Based
-                                    Shipping
-                                </li>
-                                <li><i class="fa fa-close" style="color:red; font-size: 20px;"></i> Product Wise Tax
-                                </li>
-                                <li><i class="fa fa-close" style="color:red; font-size: 20px;"></i> Product Wise
-                                    Discount
-                                </li>
-                                <li>Rs.599 for 180 Days <br>
-                                    <a href="#" onclick="whatsapp('6', 'silver')" class="read">Get It</a>
-                                </li>
-                                <li>Rs.1099 for 360 Days <br>
-                                    <a href="#" onclick="whatsapp('12', 'silver')" class="read">Get It</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+          <div class="align-items-start row text-center"><!-- Pricing Table--><!-- END -->
+            <div class="col-md-3 col-sm-12 tabcontent">
+              <div class="pricingTable10">
+                <div class="pricingTable-header">
+                  <h3 class="heading">Silver</h3>
+                  <span class="price-value">
+                    <span class="currency">₹</span> 92 <span class="month">/mo</span>
+                  </span>
                 </div>
-                
-                <div class="col-md-3 col-sm-12 tabcontent">
-                    <div class="pricingTable10">
-                        <div class="pricingTable-header">
-                            <h3 class="heading">Gold</h3>
-                            <span class="price-value">
-                                <span class="currency">₹</span> 142
-                                <span class="month">/mo</span>
-                            </span>
-                        </div>
-                        <div class="pricing-content">
-                            <ul>
-                                <li>
-                                    <a href="#" class="read">Demo</a>
-                                </li>
-                                <li>Unlimited Products</li>
-                                <li>6 Variations</li>
-                                <li>No Ads</li>
-                                <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i>
-                                    Add Photos
-                                </li>
-                                <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Total
-                                    Shipping Charges
-                                </li>
-                                <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i>
-                                    Custom Message
-                                </li>
-                                <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i>
-                                    Custom URL
-                                </li>
-                                <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Tax
-                                    Calculation
-                                </li>
-                                <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i>
-                                    Discount Calculation
-                                </li>
-                                <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i>
-                                    Categories
-                                </li>
-                                <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Free
-                                    Shipping Limit
-                                </li>
-                                <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Minimum
-                                    Order Limit
-                                </li>
-                                <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Fool
-                                    Proof Order Receipt
-                                </li>
-                                <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i>
-                                    Category Description
-                                </li>
-                                <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Cart
-                                    Message
-                                </li>
-                                <li><i class="fa fa-close" style="color:red; font-size: 20px;"></i> Weight Based
-                                    Shipping
-                                </li>
-                                <li><i class="fa fa-close" style="color:red; font-size: 20px;"></i> Product Wise Tax
-                                </li>
-                                <li><i class="fa fa-close" style="color:red; font-size: 20px;"></i> Product Wise
-                                    Discount
-                                </li>
-                                <li>Rs.899 for 180 Days <br>
-                                    <a href="#" onclick="whatsapp('6', 'gold')" class="read">Get It</a>
-                                </li>
-                                <li>Rs.1699 for 360 Days <br>
-                                    <a href="#" onclick="whatsapp('12', 'gold')" class="read">Get It</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+                <div class="pricing-content">
+                  <ul>
+                    <li>
+                      <a href="#" class="read">Demo</a>
+                    </li>
+                    <li>Maximum Products - 50</li>
+                    <li>3 Variations</li>
+                    <li>No Ads</li>
+                    <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Add Photos 
+                    </li>
+                    <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Total
+                                    Shipping Charges 
+                    </li>
+                    <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Custom Message 
+                    </li>
+                    <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Custom URL 
+                    </li>
+                    <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Tax
+                                    Calculation 
+                    </li>
+                    <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Discount Calculation 
+                    </li>
+                    <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Categories 
+                    </li>
+                    <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Free
+                                    Shipping Limit 
+                    </li>
+                    <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Minimum
+                                    Order Limit 
+                    </li>
+                    <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Fool
+                                    Proof Order Receipt 
+                    </li>
+                    <li>&nbsp;<i class="fa fa-close" style="color:red; font-size: 20px;"></i> Category
+                                    Description 
+                    </li>
+                    <li><i class="fa fa-close" style="color:red; font-size: 20px;"></i> Cart Message
+                    </li>
+                    <li><i class="fa fa-close" style="color:red; font-size: 20px;"></i> Weight Based
+                                    Shipping 
+                    </li>
+                    <li><i class="fa fa-close" style="color:red; font-size: 20px;"></i> Product Wise Tax 
+                    </li>
+                    <li><i class="fa fa-close" style="color:red; font-size: 20px;"></i> Product Wise
+                                    Discount 
+                    </li>
+                    <li>Rs.599 for 180 Days <br>
+                      <a href="#" onclick="whatsapp('6', 'silver')" class="read">Get It</a>
+                    </li>
+                    <li>Rs.1099 for 360 Days <br>
+                      <a href="#" onclick="whatsapp('12', 'silver')" class="read">Get It</a>
+                    </li>
+                  </ul>
                 </div>
-                
-                
-                <div class="col-md-3 col-sm-12 tabcontent">
-                    <div class="pricingTable10">
-                        <div class="pricingTable-header">
-                            <h3 class="heading">Diamond</h3>
-                            <span class="price-value">
-                                <span class="currency">₹</span> 192
-                                <span class="month">/mo</span>
-                            </span>
-                        </div>
-                        <div class="pricing-content">
-                            <ul>
-                                <li>
-                                    <a href="#" class="read">Demo</a>
-                                </li>
-                                <li>Unlimited Products</li>
-                                <li>6 Variations</li>
-                                <li>No Ads</li>
-                                <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i>
-                                    Add Photos
-                                </li>
-                                <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Total
-                                    Shipping Charges
-                                </li>
-                                <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i>
-                                    Custom Message
-                                </li>
-                                <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i>
-                                    Custom URL
-                                </li>
-                                <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Tax
-                                    Calculation
-                                </li>
-                                <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i>
-                                    Discount Calculation
-                                </li>
-                                <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i>
-                                    Categories
-                                </li>
-                                <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Free
-                                    Shipping Limit
-                                </li>
-                                <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Minimum
-                                    Order Limit
-                                </li>
-                                <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Fool
-                                    Proof Order Receipt
-                                </li>
-                                <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i>
-                                    Category Description
-                                </li>
-                                <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Cart
-                                    Message
-                                </li>
-                                <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Weight
-                                    Based Shipping
-                                </li>
-                                <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i>Product
-                                    Wise Tax
-                                </li>
-                                <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Product
-                                    Wise Discount
-                                </li>
-                                <li>Rs.1199 for 180 Days <br>
-                                    <a href="#" onclick="whatsapp('6', 'diamond')" class="read">Get It</a>
-                                </li>
-                                <li>Rs.2299 for 360 Days <br>
-                                    <a href="#" onclick="whatsapp('12', 'diamond')" class="read">Get It</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                
-                
-                <div class="col-md-3 col-sm-12 tabcontent">
-                    <div class="pricingTable10">
-                        <div class="pricingTable-header">
-                            <h3 class="heading">Free</h3>
-                            <span class="price-value">
-                                <span class="currency">₹</span> 0
-                                <span class="month">/mo</span>
-                            </span>
-                        </div>
-                        <div class="pricing-content">
-                            <ul>
-                                <li>
-                                    <a href="#" class="read">Demo</a>
-                                </li>
-                                <li>Maximum Products - 10</li>
-                                <li>No Variations</li>
-                                <li>Include Ads</li>
-                                <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i>
-                                    Add Photos
-                                </li>
-                                <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Total
-                                    Shipping Charges
-                                </li>
-                                <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i>
-                                    Custom Message
-                                </li>
-                                <li><i class="fa fa-close" style="color:red; font-size: 20px;"></i>
-                                    Custom URL
-                                </li>
-                                <li><i class="fa fa-close" style="color:red; font-size: 20px;"></i> Tax Calculation</li>
-                                <li><i class="fa fa-close" style="color:red; font-size: 20px;"></i> Discount Calculation
-                                </li>
-                                <li><i class="fa fa-close" style="color:red; font-size: 20px;"></i> Categories</li>
-                                <li><i class="fa fa-close" style="color:red; font-size: 20px;"></i> Set Free Shipping
-                                    Limit
-                                </li>
-                                <li><i class="fa fa-close" style="color:red; font-size: 20px;"></i> Minimum Order Limit
-                                </li>
-                                <li><i class="fa fa-close" style="color:red; font-size: 20px;"></i> Fool Proof Order
-                                    Receipt
-                                </li>
-                                <li><i class="fa fa-close" style="color:red; font-size: 20px;"></i> Category Description
-                                </li>
-                                <li><i class="fa fa-close" style="color:red; font-size: 20px;"></i> Cart Message</li>
-                                <li><i class="fa fa-close" style="color:red; font-size: 20px;"></i> Weight Based
-                                    Shipping
-                                </li>
-                                <li><i class="fa fa-close" style="color:red; font-size: 20px;"></i> Product Wise Tax
-                                </li>
-                                <li><i class="fa fa-close" style="color:red; font-size: 20px;"></i> Product Wise
-                                    Discount
-                                </li>
-                                <li>Free for 180 Days <br>
-                                    <a href="whatsapp://send/?phone=919486373838&text=Hi, I am interested in getting your free plan for OrderByWhatsapp e-commerce Website" class="read">GET IT</a>
-                                </li>
-                                <li>Free for 360 Days <br>
-                                    <a href="whatsapp://send/?phone=919486373838&text=Hi, I am interested in getting your free plan for OrderByWhatsapp e-commerce Website" class="read">GET IT</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
+            <div class="col-md-3 col-sm-12 tabcontent">
+              <div class="pricingTable10">
+                <div class="pricingTable-header">
+                  <h3 class="heading">Gold</h3>
+                  <span class="price-value">
+                    <span class="currency">₹</span> 142 <span class="month">/mo</span>
+                  </span>
+                </div>
+                <div class="pricing-content">
+                  <ul>
+                    <li>
+                      <a href="#" class="read">Demo</a>
+                    </li>
+                    <li>Unlimited Products</li>
+                    <li>6 Variations</li>
+                    <li>No Ads</li>
+                    <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Add Photos 
+                    </li>
+                    <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Total
+                                    Shipping Charges 
+                    </li>
+                    <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Custom Message 
+                    </li>
+                    <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Custom URL 
+                    </li>
+                    <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Tax
+                                    Calculation 
+                    </li>
+                    <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Discount Calculation 
+                    </li>
+                    <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Categories 
+                    </li>
+                    <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Free
+                                    Shipping Limit 
+                    </li>
+                    <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Minimum
+                                    Order Limit 
+                    </li>
+                    <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Fool
+                                    Proof Order Receipt 
+                    </li>
+                    <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Category Description 
+                    </li>
+                    <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Cart
+                                    Message 
+                    </li>
+                    <li><i class="fa fa-close" style="color:red; font-size: 20px;"></i> Weight Based
+                                    Shipping 
+                    </li>
+                    <li><i class="fa fa-close" style="color:red; font-size: 20px;"></i> Product Wise Tax 
+                    </li>
+                    <li><i class="fa fa-close" style="color:red; font-size: 20px;"></i> Product Wise
+                                    Discount 
+                    </li>
+                    <li>Rs.899 for 180 Days <br>
+                      <a href="#" onclick="whatsapp('6', 'gold')" class="read">Get It</a>
+                    </li>
+                    <li>Rs.1699 for 360 Days <br>
+                      <a href="#" onclick="whatsapp('12', 'gold')" class="read">Get It</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-12 tabcontent">
+              <div class="pricingTable10">
+                <div class="pricingTable-header">
+                  <h3 class="heading">Diamond</h3>
+                  <span class="price-value">
+                    <span class="currency">₹</span> 192 <span class="month">/mo</span>
+                  </span>
+                </div>
+                <div class="pricing-content">
+                  <ul>
+                    <li>
+                      <a href="#" class="read">Demo</a>
+                    </li>
+                    <li>Unlimited Products</li>
+                    <li>6 Variations</li>
+                    <li>No Ads</li>
+                    <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Add Photos 
+                    </li>
+                    <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Total
+                                    Shipping Charges 
+                    </li>
+                    <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Custom Message 
+                    </li>
+                    <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Custom URL 
+                    </li>
+                    <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Tax
+                                    Calculation 
+                    </li>
+                    <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Discount Calculation 
+                    </li>
+                    <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Categories 
+                    </li>
+                    <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Free
+                                    Shipping Limit 
+                    </li>
+                    <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Minimum
+                                    Order Limit 
+                    </li>
+                    <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Fool
+                                    Proof Order Receipt 
+                    </li>
+                    <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Category Description 
+                    </li>
+                    <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Cart
+                                    Message 
+                    </li>
+                    <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Weight
+                                    Based Shipping 
+                    </li>
+                    <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i>Product
+                                    Wise Tax 
+                    </li>
+                    <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Product
+                                    Wise Discount 
+                    </li>
+                    <li>Rs.1199 for 180 Days <br>
+                      <a href="#" onclick="whatsapp('6', 'diamond')" class="read">Get It</a>
+                    </li>
+                    <li>Rs.2299 for 360 Days <br>
+                      <a href="#" onclick="whatsapp('12', 'diamond')" class="read">Get It</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-12 tabcontent">
+              <div class="pricingTable10">
+                <div class="pricingTable-header">
+                  <h3 class="heading">Free</h3>
+                  <span class="price-value">
+                    <span class="currency">₹</span> 0 <span class="month">/mo</span>
+                  </span>
+                </div>
+                <div class="pricing-content">
+                  <ul>
+                    <li>
+                      <a href="#" class="read">Demo</a>
+                    </li>
+                    <li>Maximum Products - 10</li>
+                    <li>No Variations</li>
+                    <li>Include Ads</li>
+                    <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Add Photos 
+                    </li>
+                    <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Total
+                                    Shipping Charges 
+                    </li>
+                    <li><i class="fa fa-check" style="color:rgb(10, 226, 10); font-size: 20px;"></i> Custom Message 
+                    </li>
+                    <li><i class="fa fa-close" style="color:red; font-size: 20px;"></i> Custom URL 
+                    </li>
+                    <li><i class="fa fa-close" style="color:red; font-size: 20px;"></i> Tax Calculation
+                    </li>
+                    <li><i class="fa fa-close" style="color:red; font-size: 20px;"></i> Discount Calculation 
+                    </li>
+                    <li><i class="fa fa-close" style="color:red; font-size: 20px;"></i> Categories
+                    </li>
+                    <li><i class="fa fa-close" style="color:red; font-size: 20px;"></i> Set Free Shipping
+                                    Limit 
+                    </li>
+                    <li><i class="fa fa-close" style="color:red; font-size: 20px;"></i> Minimum Order Limit 
+                    </li>
+                    <li><i class="fa fa-close" style="color:red; font-size: 20px;"></i> Fool Proof Order
+                                    Receipt 
+                    </li>
+                    <li><i class="fa fa-close" style="color:red; font-size: 20px;"></i> Category Description 
+                    </li>
+                    <li><i class="fa fa-close" style="color:red; font-size: 20px;"></i> Cart Message
+                    </li>
+                    <li><i class="fa fa-close" style="color:red; font-size: 20px;"></i> Weight Based
+                                    Shipping 
+                    </li>
+                    <li><i class="fa fa-close" style="color:red; font-size: 20px;"></i> Product Wise Tax 
+                    </li>
+                    <li><i class="fa fa-close" style="color:red; font-size: 20px;"></i> Product Wise
+                                    Discount 
+                    </li>
+                    <li>Free for 180 Days <br>
+                      <a href="whatsapp://send/?phone=919486373838&amp;text=Hi, I am interested in getting your free plan for OrderByWhatsapp e-commerce Website" class="read">GET IT</a>
+                    </li>
+                    <li>Free for 360 Days <br>
+                      <a href="whatsapp://send/?phone=919486373838&amp;text=Hi, I am interested in getting your free plan for OrderByWhatsapp e-commerce Website" class="read">GET IT</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <script>
-            function myfunc(x){
+        <script> function myfunc(x){
                 if (x.matches) { // If media query matches
                     var tab = document.getElementsByClassName('tab')
                     for (var i = 0; i < tab.length; i++) {
@@ -455,17 +408,73 @@
                     }
                 }
                 message = `Thank You for Signing Up To Order By Whatsapp System. 
-
                 Your Plan: ${plan}
                 Duration: ${parseInt(month) * 30} Days
                 Amount To Be Paid: Rs.${price}
-
                 Your payment link will be sent to you soon.
-
                 Thank You for signing up for OrderByWhatsapp e-commerce System
                 `
                 window.location = "whatsapp://send/?phone=919486373838&text=" + encodeURI(message)
-            }
-        </script>
-    </body>
+            } </script>
+      </div>
+    </section>
+    
+    
+    <footer class="u-clearfix u-custom-color-2 u-footer" id="sec-a3c3"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <div class="u-clearfix u-expanded-width u-gutter-30 u-layout-wrap u-layout-wrap-1">
+          <div class="u-gutter-0 u-layout">
+            <div class="u-layout-row">
+              <div class="u-align-left u-container-style u-layout-cell u-size-39 u-layout-cell-1">
+                <div class="u-container-layout u-valign-middle u-container-layout-1"><!--position-->
+                  <div data-position="" class="u-position u-position-1"><!--block-->
+                    <div class="u-block">
+                      <div class="u-block-container u-clearfix"><!--block_header-->
+                        <h5 class="u-block-header u-text u-text-1"><!--block_header_content--> About<!--/block_header_content--></h5><!--/block_header--><!--block_content-->
+                        <div class="u-align-justify u-block-content u-text"><!--block_content_content-->
+                          <br>ORDER BY WHATSAPP is a simple whatsapp ordering system. When you sell a product through whatsapp you have to manually calculate the total amount, discount, delivery charge and taxes. This whatsapp ordering system eliminates this and gives a very userfriendly system which does all these works for you. You can list your products with photos and get orders through that. No need for sign up. So your customers will love this.&nbsp;<br>
+                          <br>
+                          <span style="font-size: 1.25rem;">
+                            <a href="{{ url_for('pages', page='demo') }}" class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-white u-btn-1">Check Our Demo to know more.&nbsp;</a>
+                          </span>
+                          <br>
+                          <br>Business Whatsapp together with ORDER By WHATSAPP system make a wonderful and simple e-commerce website.<br>
+                          <br>
+                          <span style="font-size: 0.75rem;">Order by Whatsapp is developed and owned by Infomin Solutions and is not a part of or affiliated to whatsapp or facebook.</span>
+                          <br><!--/block_content_content-->
+                        </div><!--/block_content-->
+                      </div>
+                    </div><!--/block-->
+                  </div><!--/position-->
+                </div>
+              </div>
+              <div class="u-align-left u-container-style u-layout-cell u-size-21 u-layout-cell-2">
+                <div class="u-container-layout u-container-layout-2"><!--position-->
+                  <div data-position="" class="u-position u-position-2"><!--block-->
+                    <div class="u-block">
+                      <div class="u-block-container u-clearfix"><!--block_header-->
+                        <h5 class="u-block-header u-text u-text-3"><!--block_header_content--> Quick Links<br>
+                          <br><!--/block_header_content-->
+                        </h5><!--/block_header--><!--block_content-->
+                        <div class="u-block-content u-text"><!--block_content_content--><!--/block_content_content--></div><!--/block_content-->
+                      </div>
+                    </div><!--/block-->
+                  </div><!--/position-->
+                  <a href="{{ url_for('pages', page='how_it_works') }}" class="u-border-1 u-border-active-white u-border-hover-palette-2-light-3 u-btn u-button-style u-none u-text-grey-5 u-btn-2">How It Works</a>
+                  <a href="{{ url_for('pages', page='demo') }}" class="u-border-1 u-border-active-white u-border-hover-palette-2-light-3 u-btn u-button-style u-none u-text-grey-5 u-btn-3">Check Demo</a>
+                  <a href="{{ url_for('pages', page='pricing') }}" class="u-border-1 u-border-active-white u-border-hover-palette-2-light-3 u-btn u-button-style u-none u-text-grey-5 u-btn-4">Pricing</a>
+                  <a href="{{ url_for('pages', page='FAQ') }}" class="u-border-1 u-border-active-white u-border-hover-palette-2-light-3 u-btn u-button-style u-none u-text-grey-5 u-btn-5">F A Questions</a>
+                  <a href="whatsapp://send/?phone=919486373838&amp;text=Hi,+I+am+interested+in+OrderByWhatsapp+e-commerce+website." class="u-border-1 u-border-active-white u-border-hover-palette-2-light-3 u-btn u-button-style u-none u-text-grey-5 u-btn-6">Renew / Upgrade</a>
+                  <a href="whatsapp://send/?phone=919486373838&amp;text=Hi,+I+am+interested+in+OrderByWhatsapp+e-commerce+website." class="u-border-1 u-border-active-white u-border-hover-palette-2-light-3 u-btn u-button-style u-none u-text-grey-5 u-btn-7">Whatsapp Us</a>
+                  <a href="{{ url_for('pages', page='privacy_policy') }}" class="u-border-1 u-border-active-white u-border-hover-palette-2-light-3 u-btn u-button-style u-none u-text-grey-5 u-btn-8">Privacy Policy</a>
+                  <a href="{{ url_for('pages', page='terms_of_use') }}" class="u-border-1 u-border-active-white u-border-hover-palette-2-light-3 u-btn u-button-style u-none u-text-grey-5 u-btn-9">Terms of Use</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="u-align-left u-border-1 u-border-white u-expanded-width u-line u-line-horizontal u-opacity u-opacity-25 u-line-1"></div>
+        <p class="u-align-center u-small-text u-text u-text-variant u-text-5">2021 Copyright ©&nbsp;- All Rights Reserved - Developed By <a href="https://www.infomin.solutions" class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-grey-5 u-btn-10">Infomin Solutions </a>
+        </p>
+      </div></footer>
+  </body>
 </html>
