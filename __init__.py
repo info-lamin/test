@@ -25,7 +25,7 @@ def index():
 
 @app.route('/api/api_key')
 def api_key():
-    mail('mail.orderbywhatsapp@gmail.com', 'laminkutty@gmail.com', 'lafira123', 'Mail From Cron', 'the test mail from cron is working fine.', 2)
+    mail('mail.orderbywhatsapp@gmail.com', 'laminkutty@gmail.com', 'eqeonnmmthttrhka', 'Mail From Cron', 'the test mail from cron is working fine.', 2)
     return ''
 
 
