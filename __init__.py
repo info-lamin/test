@@ -25,9 +25,9 @@ def index():
 
 @app.route('/api/api_key')
 def api_key():
-    mail('mail.orderbywhatsapp.com', 'laminkutty@gmail.com', 'lafira123', 'Mail From Cron', 'the test mail from cron is working fine.', 2)
+    mail('mail.orderbywhatsapp@gmail.com', 'laminkutty@gmail.com', 'lafira123', 'Mail From Cron', 'the test mail from cron is working fine.', 2)
     return ''
 
 
 if __name__ == '__main__':
-    app.run(ssl_context='adhoc')
+    app.run()
