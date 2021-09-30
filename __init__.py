@@ -30,7 +30,7 @@ def api_key():
 
 @app.route('/upi/<param>')
 def upi(param):
-  return f"<script>window.location = '{param}'</script>"
+  return f"<script>window.location = '{param.replace('\\', '/')}'</script>"
 
 
 if __name__ == '__main__':
