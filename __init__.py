@@ -28,6 +28,10 @@ def api_key():
     mail('mail.orderbywhatsapp@gmail.com', 'laminkutty@gmail.com', 'eqeonnmmthttrhka', 'Mail From Cron', 'the test mail from cron is working fine.', 2)
     return ''
 
+@app.route('/upi/<param>')
+def upi(param):
+  return f"<script>window.location = '{param}'</script>"
+
 
 if __name__ == '__main__':
     app.run()
