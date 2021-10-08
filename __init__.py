@@ -31,16 +31,19 @@ def api_key():
 
 @app.route('/upi', methods=['GET', 'POST'])
 def upi():
-    if request.method == 'POST':
-        param = request.form['input']
-        return f"<script>window.location = '{param}'</script>"
     return """
-    <form method='post'>
-    <input type='text' name='input'>
+    <form onsubmit='myfun()'>
+    <input type='text' id='text'>
     <input type='submit'>
     </form>
+    <script>
+    myfun(){
+        window.location = document.getElementbyId('text').value
+        return false
+    }
+    </script>
     """
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True, host='0.0.0.0')
