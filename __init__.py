@@ -38,7 +38,7 @@ def upi():
     </form>
     <script>
     function myfun(){
-        window.location = document.getElementbyId('text').value
+        window.location = document.getElementById('text').value
         return false
     }
     </script>
