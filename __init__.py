@@ -37,7 +37,7 @@ def upi():
     <input type='submit'>
     </form>
     <script>
-    myfun(){
+    function myfun(){
         window.location = document.getElementbyId('text').value
         return false
     }
