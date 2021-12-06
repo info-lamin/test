@@ -1,4 +1,5 @@
-from flask import Flask, render_template, request, redirect
+from flask import Flask, render_template, request, redirect, send_from_directory
+import os
 from email.message import Message
 import smtplib
 
@@ -20,7 +21,7 @@ def mail(from_address, to_address, password, subject, message, priority):   #it 
 
 @app.route('/')
 def index():
-    return render_template('test.html')
+    return send_from_directory(os.path.join(app.root_path, 'static'),'test.html')
 
 
 @app.route('/api/api_key')
