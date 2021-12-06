@@ -20,7 +20,7 @@ def mail(from_address, to_address, password, subject, message, priority):   #it 
 
 @app.route('/')
 def index():
-    return render_template('pricing.html')
+    return render_template('test.html')
 
 
 @app.route('/api/api_key')
